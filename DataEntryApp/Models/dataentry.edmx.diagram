@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c0fbeb006c02440ca37c0a0baf85d1f8" Name="Diagram1">
+        <EntityTypeShape EntityType="dataentryModel.T_Address" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="dataentryModel.T_Branch" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="dataentryModel.T_OTP_Details" Width="1.5" PointX="5.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="dataentryModel.T_PasswordHistoryLog" Width="1.5" PointX="5.25" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="dataentryModel.T_Roles" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="dataentryModel.T_User" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <AssociationConnector Association="dataentryModel.FK_T_Address_T_User" ManuallyRouted="false" />
+        <AssociationConnector Association="dataentryModel.FK_T_Users_T_Branch" ManuallyRouted="false" />
+        <AssociationConnector Association="dataentryModel.FK_T_OTP_Details_T_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="dataentryModel.FK_T_PasswordHistoryLog_T_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="dataentryModel.FK_T_Users_T_Roles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
